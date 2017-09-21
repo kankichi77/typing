@@ -1,4 +1,6 @@
 // CONSTANTS
+var WORD_LIMIT = 10;
+
 var TIME_HIGH = 1;
 var TIME_MEDIUM = 3;
 var TIME_LOW = 5;
@@ -7,7 +9,6 @@ var SCORE_MEDIUM = 10;
 var SCORE_LOW = 1;
 var MIN_CHAR = 4;
 var MAX_CHAR = 100;
-var WORD_LIMIT = 2;
 var COUNTDOWN_STARTNUMBER = 3;
 var COUNTDOWN_INTERVAL = 1000;
 var ID_QUESTION = "question";
