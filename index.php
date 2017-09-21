@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106862143-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+    gtag('config', 'UA-106862143-1');
+  </script>
+
+  <title>Typing!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <link rel="stylesheet" href="typing.css">
+  <script type="text/javascript" src="words.js"></script>
+  <script type="text/javascript" src="typing.js"></script>
+</head>
+<body onload="init()">
+<form id="inputForm">
+<div class="container">
+
+<div class="t-title">
+    <a href="index.php"><h2>Let's Type!</h2></a>
+</div>
+<div class="t-form">
+  <p><span class="t-resultMessage" id="resultMessage"></span></p>
+
+  <p><span class="t-question" id="question">
+    <a href="javascript:start()">START!</a>
+  </span></p>
+  <p><span class="t-stats" id="statsMessage"></span></p>
+  <p><span class="t-keyEntryMessage" id="keyEntryResultMessage"></span></p>
+
+</div>
+
+</div>
+</form>
+</body>
+</html>
+
