@@ -1,1 +1,1 @@
-# typing
+# typing game for kids
